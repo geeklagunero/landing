@@ -1,4 +1,5 @@
 <header class="header">
+   <div class="logo"><img src="./assets/img/logo.png" alt=""></div>
    <input type="checkbox" name="" id="btnMenu">
    <label for="btnMenu"><i class="fas fa-bars"></i></label>
 
