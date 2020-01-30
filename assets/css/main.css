@@ -1,12 +1,15 @@
 *{margin: 0; padding: 0;box-sizing: border-box;}
+:root{
+   --morado:#b1047d;
+}
 
 body{width:100%;height:auto;
-font-family: 'Roboto';
-background: #fefefe;
-position: relative;z-index:0;}
+   font-family: 'Lato', sans-serif;
+   background: #fefefe;
+   position: relative;z-index:0;}
 
 .header{width:100%;height:auto;
-   background:#4e94ab;
+   background:var(--morado);
    overflow: hidden;
    letter-spacing:1px;
    box-shadow: 0 5px 5px rgba(0,0,0,.5);}
@@ -18,7 +21,8 @@ position: relative;z-index:0;}
 .logo>img{width:100%;height:auto;border-radius:50%;}
 #btnMenu{display:none;}
 
-.menu{margin-right:30px;}
+.menu{margin-right:30px;
+   position:relative;z-index:999;}
 .header>label{
    display:inline-block;
    color:#ddd;
@@ -50,7 +54,7 @@ position: relative;z-index:0;}
 
    .menu{width:70%;
       position:absolute;
-      background:#4e94ab;
+      background:var(--morado);;
       margin-left:-70%;
       transition:all .4s ease;}
 
@@ -68,3 +72,114 @@ position: relative;z-index:0;}
    }
 }
 
+/* -------------------------------------*/
+/*        Styles Section Banner*/
+/* -------------------------------------*/
+.banner{width:100%;height:auto;
+   margin: 0 auto; padding:0;
+   box-shadow:inset 0 5px 5px rgba(0,0,0,.5);
+   position:relative;}
+
+.bgBanner{width:100%;height:600px;
+   background-image:url(../../assets/img/banner.jpg);
+   position:relative;z-index:1;
+   background-attachment: fixed;
+   background-position:center;
+   background-size:100 auto;
+   background:cover;
+}
+
+.childBanner{width:100%;height:600px;
+   background:#b1047d69;color:#ddd;
+   display:flex;justify-content:center;
+   align-items:center;
+   flex-direction:column;
+   position:relative;
+   }
+.childBanner>h1{font-size:50px;
+   font-weight:300;}
+.childBanner>p{margin:10px auto;}
+.childBanner>a{display:block;
+   text-decoration:none;
+   background:#026299;color:#ddd;
+   padding:15px 30px;font-size:1.5rem;
+   border-radius:7px;
+   transition:all .4s ease;}
+.childBanner>a:hover{
+   padding:15px 10px 15px 50px;
+   box-shadow: 0 5px 5px rgba(0,0,0,.1);
+}
+
+/* -------------------------------------*/
+/*        Styles Section abotMe*/
+/* -------------------------------------*/
+.products{width:100%;height:auto;
+   background:#026299;color:#ddd;
+   font-family: 'Roboto', sans-serif;
+   margin: 0 auto; padding:50px 30px;
+   box-shadow:inset 0 5px 5px rgba(0,0,0,.5);
+   position:relative;
+   display:flex;flex-wrap:wrap;
+   justify-content:space-around;}
+
+.childProducts{width:30%;height:auto;
+   margin:10px;position:relative;
+   overflow: hidden;}
+.childProducts>img{width:100%;height:auto;
+   border-radius:7px;
+   transition:all .4s ease;}
+.childProducts>img:hover{
+   transform:scale(1.2) rotate(2deg);
+}
+.childProducts>p{position:absolute;
+   top:calc(40%);left:calc(20%);
+   background:#b1047d59;
+   font-size:2rem;
+   padding:5px 20px;
+   border-radius:10px;}
+@media only screen and (max-width:768px){
+   .products{flex-direction:column;}
+   .childProducts{width: 100%;}
+}
+
+/* -------------------------------------*/
+/*        Styles Section abotMe*/
+/* -------------------------------------*/
+.aboutMe{width:100%;height:auto;
+   color:#444;
+   font-family: 'Roboto', sans-serif;
+   margin: 0 auto; padding:50px 30px;
+   box-shadow:inset 0 5px 5px rgba(0,0,0,.5);
+   position:relative;line-height:2rem;
+   display:flex;align-items:center;}
+
+.childAbout{flex-grow:1;
+   text-align:center;
+   overflow: hidden;padding:0 15px;}
+
+.childAbout>img{width:100%;height:auto;
+   clip-path: inset(0 5% 0 21%);}
+.childAbout>h2{
+   font-size:40px;font-weight:300;
+margin-bottom:30px;}
+.childAbout>a{display:inline-block;
+   text-decoration:none;
+   background:var(--morado);color:#ddd;
+   padding:7px 30px;font-size:1.2rem;
+   margin:20px auto;
+   border-radius:7px;
+   transition:all .4s ease;}
+.childAbout>a:hover{
+   
+   padding:7px 10px 7px 50px;
+   box-shadow: 0 5px 5px rgba(0,0,0,.1);
+}
+
+@media only screen and (max-width:768px){
+   .aboutMe{flex-direction:column;}
+   .childAbout{width: 100%;padding:0;
+      margin:10px auto;}
+   .childAbout>h2{font-size:25px;}
+   .childAbout>p{
+      font-weight:300;}
+}
