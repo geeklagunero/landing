@@ -53,3 +53,150 @@ position: relative;z-index:0;}
       box-shadow: 0 -50px rgba(0,0,0,.2)inset;
       padding-left:10px;}
 }
+
+.days{
+   width: 99%;
+   height: 600px;
+   display: flex;
+   justify-content: center;
+}
+
+.conteiner{
+   width: 80%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.texto{
+   width: 40%;
+   padding-right: 60px;
+   
+}
+
+.imagen{
+   width: 40%;
+   margin-right: 100px;
+}
+
+.texto h3{
+   font-size: 34px;
+   font-style: italic;
+   font-weight: 100;
+   margin-bottom: 20px;
+}
+
+.texto p{
+   color: grey;
+   
+}
+
+.texto a{
+   display: inline-block;
+   background-color: red;
+   color: white;
+   padding: 10px 30px;
+   border-radius: 7px;
+   text-decoration: none;
+   font-weight: 100;
+}
+
+.contenedor-img{
+   width: 100%;
+
+}
+
+.contenedor-img>img
+{
+   max-width: 100%;
+   max-width: 600px;
+   border-radius: 20px;
+}
+
+
+/******* Contendor de servicios ********/
+.service{
+       width: 99%;
+       display: flex;
+       justify-content: center;
+}
+
+.conteiner2{
+   width: 80%;
+   display: flex;
+   flex-wrap: wrap;
+   
+
+
+}
+
+.item{
+   width: 30%;
+   display: flex;
+   flex-wrap: nowrap;
+   margin-left: 20px;
+   margin-top: 40px;
+  
+   
+}
+.icono{
+width: 20%;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #555555;
+background-color: #FFFFFF;
+border-radius: 50%;
+height: 74px;
+margin-top: 20px;
+box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+font-size: 19px;
+
+}
+
+.icono:hover{
+   background-color: #555555;
+   color: white;
+}
+
+.fa-pen{
+   
+ width: 100%;
+ color: #555555;
+ font-size: 30px;
+   
+}
+
+.fa-pen:hover{
+ color: white;
+ background-color: #555555;
+}
+
+.texto-der{
+width: 80%;
+
+padding-left: 10px;
+}
+
+.texto-der p{
+   font-size: 12px;
+   font-weight: 100;
+   font-style: italic;
+}
+
+.texto-der h2{
+   font-size: 19px;
+   font-weight: 100;
+   font-style: italic;
+}
+
+
+
+.sub-titulo>h2{
+   font-size: 34px;
+   font-style: italic;
+   font-weight: 100;
+   margin: 0 auto;
+   text-align: center;
+}
