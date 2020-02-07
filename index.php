@@ -91,11 +91,69 @@
         </div>
     </section>
 
+    <!-- Barra Redes Sociales-->
+    <div class="barra">
+        <div class="contenedor-barra">
+            <div class="formulario">
+                <p>Newsletter sign up</p>
+                <input type="text">
+                <p><a href="#">Subscribete</a></p>
+            </div>
+            <div class="redes">
+                <i class="fab fa-google-plus-square"></i>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-youtube-square"></i>
+            </div>
+        </div>
+    </div>
+
     <!--- Footer -->
     <footer>
-        <div class="conteiner">
+        <div class="conteiner-footer">
             <div class="menu-footer">
-
+                <div class="item2 about">
+                    <h2>About</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit natus, sit quas unde voluptates minus optio vel fugit </p>
+                </div>
+                <div class="item2 category">
+                    <h2>Category</h2>
+                    <ul>
+                        <li>Accesories</li>
+                        <li>Men</li>
+                        <li>Jackets</li>
+                        <li>Woman</li>
+                        <li>Shoes</li>
+                        <li>Shorts</li>
+                    </ul>
+                </div>
+                <div class="item2 info">
+                    <h2>The Service</h2>
+                    <ul>
+                        <li>My Account</li>
+                        <li>Order History</li>
+                        <li>Vendor contact</li>
+                        <li>Shop</li>
+                        <li>Search</li>
+                    </ul>
+                </div>
+                <div class="item2 services">
+                    <h2>Information</h2>
+                    <ul>
+                        <li>About Us</li>
+                        <li>New Collection</li>
+                        <li>Bestsellers</li>
+                        <li>Manufactures</li>
+                        <li>Privacy pollcy</li>
+                        <li>Term & condition</li>
+                    </ul>
+                </div>
+                <div class="item2 contac">
+                    <h2>Contact Us</h2>
+                    <p><i class="fas fa-map-marker-alt"></i> <span>Calle Septima</span></p>
+                    <p><i class="fas fa-phone-alt"></i><span>(871) 8767898</span></p>
+                    <p><i class="fas fa-envelope"></i></i> <span>contact@gmail.com</span></p>
+                </div>
             </div>
         </div>
     </footer>
