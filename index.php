@@ -1,3 +1,6 @@
+<div class="up" id="up">
+   <a href="#up"><i class="fas fa-arrow-circle-up"></i></a>
+</div>
 <?php include_once 'inc/header.php';?>
 <body>
    <?php include_once 'inc/nav.php'; ?>
