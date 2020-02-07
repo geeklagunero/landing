@@ -245,3 +245,300 @@ margin-bottom:30px;}
    .childAbout>p{
       font-weight:300;}
 }
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - */
+/*        Styles Page Richie*/
+/* - - - - - - - - - - - - - - - - - - - - - - - */
+.days{width: 100%;height:auto;
+   position:relative;padding:50px 30px;}
+
+.conteiner1{width:100%;height:auto;
+   display: flex; justify-content: center;
+   align-items: center;justify-content:space-between;
+}
+.texto{padding:0 30px;
+   display:flex;flex-direction:column;
+   align-items:center;}
+.texto, .imagen{
+   width: 100%;overflow:hidden;}
+
+.texto h3{
+   font-size: 34px;
+   font-style: italic;
+   font-weight: 100;
+   margin: 20px;
+}
+
+
+.texto a{
+   display: inline-block;
+   background-color: red;
+   color:#ddd;
+   padding: 10px 30px;
+   border-radius: 7px;
+   text-decoration: none;
+   font-weight: 300;
+   margin:30px auto;
+}
+.texto>a:hover{background:rgb(216, 4, 4);}
+.texto>a:active{color:#fff;
+   box-shadow: 0 5px 5px rgba(0,0,0,.5)inset;
+   transform:scale(.95) translateY(3px);}
+.conteiner1 img{width:100%;height:auto;
+   border-radius:6px;
+   filter:sepia(0);
+   transition:all .3s ease;}
+
+.conteiner1 img:hover{transform:scale(1.1)rotate(-3deg);
+   filter:sepia(1); }
+
+@media only screen and (max-width:768px){
+   .conteiner1{flex-direction:column;}
+}
+
+/******* Contendor de servicios ********/
+.service{
+       width: 99%;
+       display: flex;
+       justify-content: center;
+}
+
+.conteiner2{
+   width: 80%;
+   display: flex;
+   flex-wrap: wrap;
+   
+
+
+}
+
+.item{
+   width: 30%;
+   display: flex;
+   flex-wrap: nowrap;
+   margin-left: 20px;
+   margin-top: 40px;
+  
+   
+}
+.icono{
+width: 20%;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #555555;
+background-color: #FFFFFF;
+border-radius: 50%;
+height: 74px;
+margin-top: 20px;
+box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+font-size: 19px;
+
+}
+
+.icono:hover{
+   background-color: #555555;
+   color: white;
+}
+
+.fa-pen{
+   
+ width: 100%;
+ color: #555555;
+ font-size: 30px;
+   
+}
+
+.fa-pen:hover{
+ color: white;
+ background-color: #555555;
+}
+
+.texto-der{
+width: 80%;
+
+padding-left: 10px;
+}
+
+.texto-der p{
+   font-size: 12px;
+   font-weight: 100;
+   font-style: italic;
+}
+
+.texto-der h2{
+   font-size: 19px;
+   font-weight: 100;
+   font-style: italic;
+}
+
+
+
+.sub-titulo>h2{
+   font-size: 34px;
+   font-style: italic;
+   font-weight: 100;
+   margin: 0 auto;
+   text-align: center;
+}
+
+/**** Footer ****/
+
+.conteiner-footer{
+   width: 99%;
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+   margin-left: 40px;
+   margin-bottom: 140px;
+   color: #555555;
+   
+}
+
+.menu-footer{
+width: 80%;
+display: flex;
+flex-wrap: nowrap;
+}
+.item2{
+width: calc((100% / 5) - 40px );
+display: flex;
+flex-wrap: nowrap;
+flex-direction: column;
+padding: 20px;
+}
+
+.item2>h2{
+font-size: 20px;
+font-style: italic;
+font-weight: 100;
+
+text-align: left;
+}
+
+.item2>p{
+font-size: 12px;
+font-style: italic;
+font-weight: 100;
+margin-top: 0px;
+margin-bottom: 5px;
+text-align: left;
+}
+
+.item2>ul{
+font-size: 12px;
+font-style: italic;
+font-weight: 100;
+margin-top: 0px;
+margin-bottom: 5px;
+padding-left: 10px;
+
+
+}
+
+.contac span{
+margin-left: 5px;
+}
+
+.contac p{
+margin-top: 8px;
+}
+
+.item2 li{
+margin-top: 5px;
+text-align: left;
+margin-top: 8px;
+list-style: none;
+cursor: pointer;
+}
+
+
+/* barra de redes */
+.barra{
+width: 100%;
+display: flex;
+justify-content: center;
+background-color: #ccc;
+padding: 15px 20px;
+
+}
+
+.contenedor-barra{
+width: 70%;
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+}
+
+.formulario{
+display: flex;
+align-items: center;
+
+}
+
+.redes{
+font-size: 50px;
+}
+
+.fa-google-plus-square{
+color: red;
+}
+
+.fa-facebook-square{
+color: blue;
+}
+
+.fa-twitter-square{
+color: cadetblue;
+}
+
+.fa-youtube-square{
+color: red;
+}
+
+input{
+margin: 0 3px;
+margin-left: 10px;
+margin-right: 20px;
+height: 35px;
+border-radius: 3px;
+border: none;
+
+}
+
+input:focus{
+background-color: rgba(0,0,0,.11);
+border: none;
+}
+
+input:hover{
+border: none;
+}
+
+.formulario  a{
+   display: inline-block;
+   background-color: black;
+   color: white;
+   text-decoration: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.formulario p{
+   font-size: 20px;
+   font-weight: 100;
+   font-style: italic;
+}
+
+@media only screen and (max-width:850px){
+.contenedor-barra{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.fab{
+   margin: 15px auto;
+}
